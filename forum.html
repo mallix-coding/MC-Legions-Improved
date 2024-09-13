@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Legions Forum</title>
+    <link rel="stylesheet" href="forum-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Minecraft Legions Forum</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="forum">
+            <h2>Discussion Forum</h2>
+            <div class="forum-post">
+                <h3>Topic Title 1</h3>
+                <p>Post content goes here...</p>
+            </div>
+            <div class="forum-post">
+                <h3>Topic Title 2</h3>
+                <p>Post content goes here...</p>
+            </div>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="topicTitle">Topic Title:</label>
+                    <input type="text" id="topicTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="postContent">Post Content:</label>
+                    <textarea id="postContent" rows="3" required></textarea>
+                </div>
+                <button type="submit">Submit Post</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minecraft Legions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

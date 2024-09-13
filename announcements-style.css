@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('assets/images/Improved\ MC\ Legions\ Announcements\ Pic.png');
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(75, 46, 131, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'MedievalSharp', cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #4b2e83;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+.announcement {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #4b2e83;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.announcement h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #4b2e83;
+}
+
+.announcement p {
+    margin: 10px 0 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .announcement {
+        padding: 10px;
+    }
+
+    .announcement h3 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        position: static;
+        padding: 20px 0;
+    }
+}
